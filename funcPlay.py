@@ -23,7 +23,7 @@ def play():
     try:
         jogarNovamente = str(input('Deseja jogar novamente? [S/N]: ')).lower().strip()
     except:
-        print('Valor não foi digitado ou foi digitado inválidamente.')
+        print('Valor inválido.')
     if jogarNovamente == 'n':
         print('Obrigado por jogar!')
     elif jogarNovamente == 's':
