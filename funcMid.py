@@ -5,7 +5,6 @@ def mainFunc(palavraSecreta,letrasDescobertas,jogador2,dica1,dica2,dica3,jogador
 
     for i in range(0, len(palavraSecreta)):
         letrasDescobertas.append('*')
-
     while True:
         try:
             opcao = int(input('\n[1] JOGAR\n[2] DICA\nOpção: '))
